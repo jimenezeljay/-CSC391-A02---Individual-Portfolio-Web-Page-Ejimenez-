@@ -1,2 +1,28 @@
 # -CSC391-A02---Individual-Portfolio-Web-Page-Ejimenez-
 From Professor: "Objectives: Turn your wireframe from A02 into a clean, well-structured personal class portfolio homepage using HTML and CSS. Demonstrate correct use of semantic HTML and readable, organized CSS. Apply layout, and navigation principles from class intentionally (not randomly)."
+
+Start:
+[2/3/26] ]Plan (so far):
+- Need to look into how I can center a photo in the middle of the webpage (if possible)
+- Figure out a (cool) navigation bar I would want to stand out
+- For Personal and Team Projects (for the mean time), I'll try to see if I can have placeholders of temporary "projects" there
+- Add a footer that links to the GitHub repo that this code is in (along with contact information (and maybe a fake social media account))
+- Still debating on if I should create reference links to the individual and team "projects" as a separate .html file OR have them on the same webpage and try to implement that button idea I mention on my Wireframe assignment: "My idea for buttons for these is that if I click on Individual projects, it’ll have a feature where it can scroll down to the header that says “Individual Projects”. OR I would want it so if the person is scrolling down, the navigation bar follows, almost as if it is being pulled down, so that way the user still has access to the navigation bar, no matter how far they scroll down."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
