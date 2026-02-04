@@ -1,0 +1,42 @@
+/*
+Use exactly one external stylesheet named 'style.css'
+- consistent indentation
+- logically grouped rules
+- meaningful class/ID names
+- no inline style=""
+
+Instructions for styling the page:
+
+- Consistent color scheme (background, text, links, section colors; readable contrast)
+- Style page background and text color intentionally.
+- Style links so they are clearly distinguishable (default + hover + visited).
+- Typography ( font-family , sizes, weights, line-height)
+- Set a font-family for the page.
+- Use readable font sizes and spacing ( line-height , margins).
+- Make headings visually distinct from body text.
+- Use margin , padding , and border intentionally
+- Explicitly set margin and padding for at least one major section or container.
+- Use a border in at least one place (card, section, nav, image, etc.).
+- Layout should not feel cramped or randomly spaced.
+- Your <nav> must include:
+- visible styling (background color or clear design treatment)
+- spacing between links
+- a visible hover effect for links
+
+Include at least two wayfinding cues
+
+
+How to create sticky element:
+- Use position: sticky; with top: 0; on the desired element
+ 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+*/
+
