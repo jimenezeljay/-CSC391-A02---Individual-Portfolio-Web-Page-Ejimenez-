@@ -10,6 +10,17 @@ Start:
 - Still debating on if I should create reference links to the individual and team "projects" as a separate .html file OR have them on the same webpage and try to implement that button idea I mention on my Wireframe assignment: "My idea for buttons for these is that if I click on Individual projects, it’ll have a feature where it can scroll down to the header that says “Individual Projects”. OR I would want it so if the person is scrolling down, the navigation bar follows, almost as if it is being pulled down, so that way the user still has access to the navigation bar, no matter how far they scroll down."
 
 
+The 3 addtional requirements I picked:
+1. Sticky Element
+2. Enhance Text Styling (referenced code from Team Project for this)
+3. Hover & Interaction Effects
+
+
+
+Cited Resources:
+
+This helped with insight on how to create stick headers (which is perfect for what I wanted!!):
+https://www.youtube.com/watch?v=puwPc9W5Qw8
 
 
 
