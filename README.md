@@ -16,6 +16,13 @@ The 3 addtional requirements I picked:
 3. Hover & Interaction Effects
 
 
+[2/5/26]Updated plan/progress:
+- Added styling elements for the body, header, footer, and button tags
+- Added Typography for fonts and applied them to each possible html tag I would use (i,p,h1...h6, etc.)
+  
+
+
+
 
 Cited Resources:
 
