@@ -89,6 +89,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 2px;
 }
 
 nav h1 {
@@ -127,21 +128,21 @@ nav ul li a:hover {
 
 button:hover{
     background-color: #757575;
-    transform: scale(1.10); /*slightly enlarging the button on hover for interactive feel*/
+    transform: scale(1.10); /*enlarging the button on hover for interactive feel*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a subtle shadow on hover for depth*/
 }
 
 
 /*image hover effect styling*/
 img:hover {
-    transform: scale(1.05); /*slightly enlarging the image on hover for interactive feel*/
+    transform: scale(1.05); /*enlarging the image on hover for interactive feel*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a subtle shadow on hover for depth*/ 
     cursor: pointer; /*changing cursor to pointer on hover to indicate interactivity*/
 }
 
 /*card hover effect for the project cards*/
 .projectcard:hover {
-    transform: scale(1.10); /*slightly enlarging the card on hover for a more interactive feel*/
+    transform: scale(1.10); /*enlarging the card on hover forinteractive feel*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /*adding a subtle shadow on hover for depth*/
     cursor: pointer; /*changing cursor to pointer on hover to indicate interactivity*/
 }
@@ -180,7 +181,7 @@ nav ul li a.active {
 
 .galley {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     justify-items: center;
     align-items: center;
