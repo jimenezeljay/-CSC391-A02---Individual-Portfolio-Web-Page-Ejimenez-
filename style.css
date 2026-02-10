@@ -47,6 +47,7 @@ Enhance Text Styling:
 /*global styling*/
 body {
     background-color: #EDD5C6;
+    margin: 0; /*adrian mentioned to me*/ 
 }
 
 header {
