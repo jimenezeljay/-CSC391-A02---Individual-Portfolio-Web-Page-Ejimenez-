@@ -29,6 +29,14 @@ Cited Resources:
 This helped with insight on how to create stick headers (which is perfect for what I wanted!!):
 https://www.youtube.com/watch?v=puwPc9W5Qw8
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position
+
+https://www.w3schools.com/css/default.asp (for ALL CSS stuff, and specifics down below)
+
+- https://www.w3schools.com/css/css_positioning.asp
+- https://www.w3schools.com/css/css_navbar_horizontal.asp
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky
+- https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_navbar_fixed_sticky&stacked=h
 
 
 
