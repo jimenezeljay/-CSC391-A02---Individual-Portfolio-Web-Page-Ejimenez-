@@ -49,9 +49,12 @@ body {
 }
 
 header {
+    position: sticky;
     background-color: #773434;
     padding: 20px;
     margin: 1px;
+    position: sticky;
+    top: 0;
 }
 
 footer {
@@ -67,8 +70,6 @@ aside {
     float: right;
     background-color: #757575
 }
-
-/*sticky element for nav bar*/
 
 
 /*typography styling*/
@@ -87,49 +88,96 @@ h1, h2, h3, h4 {
 }
 
 
-/*navigation and link styling*/
-button.link {
-    border: 1px solid black;
-    background-color: #EDD5C6;
-    padding-top: 15;
-    padding-right: 15;
-    padding-bottom: 15;
-    padding-left: 15;
+/*navigation styling*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-button.link:hover {
-    background-color: #756985
+nav h1 {
+    color: white;
+    margin: 0;
+}
+
+/*horizontal navigation bar styling*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /*putting space between the links so they aren't close*/
+  background-color: #333333;
+}
+
+nav ul li {
+  display: inline;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /*smooth transition for hover effect*/
+}
+
+nav ul li a:hover {
+  background-color: #111111;
+  border-radius: 6px; /*adding a border radius for a more polished look on hover*/
+}
+
+button:hover{
+    background-color: #757575;
+    transform: scale(1.10); /*slightly enlarging the button on hover for a more interactive feel*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a subtle shadow on hover for depth*/
 }
 
 
-/* unvisited link */
-
-a:link {
-    color: rgb(0, 132, 255);
+/*image hover effect styling*/
+img:hover {
+    transform: scale(1.05); /*slightly enlarging the image on hover for a more interactive feel*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a subtle shadow on hover for depth*/ 
+    cursor: pointer; /*changing cursor to pointer on hover to indicate interactivity*/
 }
 
-/* unvisited link */
-
-a:link {
-    color: rgb(0, 132, 255);
+/*card hover effect for the project cards*/
+.projectcard:hover {
+    transform: scale(1.10); /*slightly enlarging the card on hover for a more interactive feel*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /*adding a subtle shadow on hover for depth*/
+    cursor: pointer; /*changing cursor to pointer on hover to indicate interactivity*/
 }
 
-
-/* visited link */
-
-a:visited {
-    color: rgb(208, 16, 234);
+/*link underline style*/
+a{
+    text-decoration: none;
+    position: relative;
 }
 
-/* mouse over link */
-
-a:hover {
-    color: rgb(213, 0, 28);
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease; /*smooth transition for underline effect*/
 }
 
+a:hover::after {
+    width: 100%; /*expanding the underline on hover for a more interactive feel*/
+}
 
-/* selected link */
+* {
+    transition: all 0.3s ease; /*applying a smooth transition to all elements for a more polished feel*/
+}
 
-a:active {
-    color: blue;
+/*wayfinding #1 - active page indicator*/
+nav ul li a.active {
+  background-color: #555555;
+  border-radius: 6px;
 }
