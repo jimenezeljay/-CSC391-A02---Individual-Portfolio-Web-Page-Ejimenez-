@@ -34,12 +34,7 @@ How to create sticky element:
     top: 0;
 }
 
-Enhance Text Styling:
-
-
-
-
-
+(^ that didn't work, so i just put in header instead)
 
 */
 
@@ -51,9 +46,9 @@ body {
 }
 
 header {
-    position: sticky;
+    position: sticky; /*heheh nav bar comes with me :)*/
     top: 0;
-    background-color: #773434;
+    background-color: rgb(59, 57, 57);
     padding: 20px;
     margin: 1px;
 }
@@ -127,19 +122,19 @@ ul li a {
 
 nav ul li a:hover {
   background-color: #111111;
-  border-radius: 6px; /*adding a border radius for a more polished look on hover*/
+  border-radius: 6px; /*adding a border radius for polished look on hover*/
 }
 
 button:hover{
     background-color: #757575;
-    transform: scale(1.10); /*slightly enlarging the button on hover for a more interactive feel*/
+    transform: scale(1.10); /*slightly enlarging the button on hover for interactive feel*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a subtle shadow on hover for depth*/
 }
 
 
 /*image hover effect styling*/
 img:hover {
-    transform: scale(1.05); /*slightly enlarging the image on hover for a more interactive feel*/
+    transform: scale(1.05); /*slightly enlarging the image on hover for interactive feel*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a subtle shadow on hover for depth*/ 
     cursor: pointer; /*changing cursor to pointer on hover to indicate interactivity*/
 }
@@ -181,4 +176,28 @@ a:hover::after {
 nav ul li a.active {
   background-color: #555555;
   border-radius: 6px;
+}
+
+.galley {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.projectPicture{
+    width: 500px;
+    height: 250px;
+    border-color: #333333;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-filter: grayscale(100%);
+}
+
+.projectPicture:hover {
+    filter: none;
+    border-color:#773434;
 }
